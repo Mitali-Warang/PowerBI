@@ -1,0 +1,5 @@
+DAX FORMULAS FOR
+
+1. PROFIT DASHBOARD
+- previousyear = CALCULATE(SUM('Orders (2)'[Profit]), PREVIOUSYEAR('Orders (2)'[Order Date].[Date]))
+- 2020profit = CALCULATE(SUM('Orders (2)'[Profit]),YEAR('Orders (2)'[Order Date]) = 2020)
